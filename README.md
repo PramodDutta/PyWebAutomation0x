@@ -10,12 +10,14 @@
 
 ## Folder Structure
 
-![q1nji_1299_image1687](https://github.com/PramodDutta/PyWebAutomation0x/assets/1409610/3ecab896-a2a9-4258-9cbe-fed76bf8fb7b)
+<img width="944" alt="Screenshot 2023-08-28 at 5 28 26 PM" src="https://github.com/PramodDutta/PyWebAutomation0x/assets/1409610/629dd569-5a7f-4293-a821-7af6f97786cc">
 
 
-# How to Run
 
-![selenium](https://github.com/PramodDutta/PyWebAutomation0x/assets/1409610/4b1a3483-c1c3-49ef-a197-84228b63729c)
+# CI/CD Run
+
+
+<img width="1199" alt="Screenshot 2023-08-28 at 5 28 46 PM" src="https://github.com/PramodDutta/PyWebAutomation0x/assets/1409610/b339baf7-ae46-4188-b285-bfb88862f752">
 
 
 
