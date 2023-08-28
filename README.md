@@ -26,3 +26,4 @@
 - pip install selenium-page-factory 
 - pip install pyyaml faker openpyxl
 - pip install pytest-xdist 
+- pip install mysql-connector-python
