@@ -7,6 +7,9 @@
 
 from selenium.webdriver.common.by import By
 
+# test -> login and dashboard page which already created
+# You also want to create a testcase for login, dashb - do you need to create more class?
+
 
 class LoginPage():
 

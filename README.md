@@ -28,3 +28,4 @@
 - pip install pyyaml faker openpyxl
 - pip install pytest-xdist 
 - pip install mysql-connector-python
+- pip install pytest-reportportal

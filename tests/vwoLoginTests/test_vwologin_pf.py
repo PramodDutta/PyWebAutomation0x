@@ -12,18 +12,20 @@ from dotenv import load_dotenv
 class TestVWOLogin:
     load_dotenv()
     @pytest.mark.usefixtures("setup")
+    @pytest.mark.qa
     def test_vwologin_negative(self, setup):
         driver = setup
         driver.get(self.base_url)
         loginPage = LoginPage(driver)
         loginPage.login_to_vwo(user=self.username, pwd="123")
         time.sleep(5)
-        if "Dashboard2" not in driver.title:
+        if "Dashboard" not in driver.title:
             allure.attach(self.driver.get_screenshot_as_png(), name="testLoginScreen", attachment_type=AttachmentType.PNG)
         assert "Dashboard2" in driver.title
         time.sleep(2)
 
     @pytest.mark.usefixtures("setup")
+    @pytest.mark.smoke
     def test_vwologin_pf(self,setup):
         driver = setup
         driver.get(self.base_url)
